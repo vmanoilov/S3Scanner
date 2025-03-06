@@ -17,9 +17,9 @@
     },
     "ghcr.io/devcontainers/features/java:1": {
       "version": "latest"
-    },
-   
-   "containerEnv": {
+    }
+  },
+  "containerEnv": {
     "PATH": "${containerEnv:PATH}:$HOME/.local/bin:$HOME/.sdkman/bin"
   },
   "postCreateCommand": [
